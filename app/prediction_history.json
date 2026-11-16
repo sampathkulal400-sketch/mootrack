@@ -1,5 +1,686 @@
 [
   {
+    "timestamp": "2026-11-16 15:08:19",
+    "type": "vision",
+    "filename": "sample_rumination.jpg",
+    "predicted_class": "feeding",
+    "confidence": 0.2946000099182129,
+    "details": {
+      "class": "feeding",
+      "confidence": 0.2946000099182129,
+      "probabilities": {
+        "drinking": 0.08060000091791153,
+        "feeding": 0.2946000099182129,
+        "lying": 0.23749999701976776,
+        "rumination": 0.2872999906539917,
+        "standing": 0.10000000149011612
+      },
+      "description": "Cattle is actively consuming forage, silage, or concentrate from the feed bunk or pasture. Key indicator of dry matter intake and metabolic health.",
+      "model": "ResNet18 (Convolutional Neural Network)",
+      "device": "cpu"
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:54:36",
+    "type": "vision",
+    "filename": "camera_capture.jpg",
+    "predicted_class": "standing",
+    "confidence": 0.2522999942302704,
+    "details": {
+      "class": "standing",
+      "confidence": 0.2522999942302704,
+      "probabilities": {
+        "drinking": 0.12880000472068787,
+        "feeding": 0.23000000417232513,
+        "lying": 0.14419999718666077,
+        "rumination": 0.24459999799728394,
+        "standing": 0.2522999942302704
+      },
+      "description": "Cattle is upright in an alert, resting, or socializing posture. Standard baseline posture observed throughout daylight hours.",
+      "model": "ResNet18 (Convolutional Neural Network)",
+      "device": "cpu"
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:54:04",
+    "type": "audio",
+    "filename": "human_speech_sample.wav",
+    "predicted_class": "Human Speaking",
+    "confidence": 0.88,
+    "details": {
+      "is_cattle_call": false,
+      "is_human_speech": true,
+      "signal_classification": "Human Speaking",
+      "class": "Human Speaking",
+      "detected_speaker": "Human Speaking",
+      "confidence": 0.88,
+      "probabilities": {
+        "Human Speaking": 0.88,
+        "Cattle Vocalization": 0.12
+      },
+      "error": "Human Speaking Detected: High fricative and formant transitions detected. Please record a cattle call.",
+      "speech_confidence": 88.0,
+      "cattle_confidence": 0.0,
+      "audio_metrics": {
+        "duration_sec": 1.8,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.1782,
+        "spectral_centroid_hz": 2239.5,
+        "spectral_rolloff_hz": 4785.4,
+        "zero_crossing_rate": 0.1507,
+        "f0_pitch_hz": 700.2,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "High-Frequency (Open-Mouth) Call",
+        "call_type_description": "Open-mouth vocalization typically associated with high arousal, physical distance, or urgent social communication."
+      },
+      "behavioral_context": "\ud83d\udde3\ufe0f Human Speaking Detected. The AudioSet sound discriminator recognized human voice/speech. MooTrack's acoustic model is exclusively trained for cattle vocalizations (mooing)."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:54:03",
+    "type": "audio",
+    "filename": "human_speech_sample.wav",
+    "predicted_class": "Human Speaking",
+    "confidence": 0.88,
+    "details": {
+      "is_cattle_call": false,
+      "is_human_speech": true,
+      "signal_classification": "Human Speaking",
+      "class": "Human Speaking",
+      "detected_speaker": "Human Speaking",
+      "confidence": 0.88,
+      "probabilities": {
+        "Human Speaking": 0.88,
+        "Cattle Vocalization": 0.12
+      },
+      "error": "Human Speaking Detected: High fricative and formant transitions detected. Please record a cattle call.",
+      "speech_confidence": 88.0,
+      "cattle_confidence": 0.0,
+      "audio_metrics": {
+        "duration_sec": 1.8,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.1782,
+        "spectral_centroid_hz": 2239.5,
+        "spectral_rolloff_hz": 4785.4,
+        "zero_crossing_rate": 0.1507,
+        "f0_pitch_hz": 700.2,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "High-Frequency (Open-Mouth) Call",
+        "call_type_description": "Open-mouth vocalization typically associated with high arousal, physical distance, or urgent social communication."
+      },
+      "behavioral_context": "\ud83d\udde3\ufe0f Human Speaking Detected. The AudioSet sound discriminator recognized human voice/speech. MooTrack's acoustic model is exclusively trained for cattle vocalizations (mooing)."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:54:01",
+    "type": "audio",
+    "filename": "human_speech_sample.wav",
+    "predicted_class": "Human Speaking",
+    "confidence": 0.88,
+    "details": {
+      "is_cattle_call": false,
+      "is_human_speech": true,
+      "signal_classification": "Human Speaking",
+      "class": "Human Speaking",
+      "detected_speaker": "Human Speaking",
+      "confidence": 0.88,
+      "probabilities": {
+        "Human Speaking": 0.88,
+        "Cattle Vocalization": 0.12
+      },
+      "error": "Human Speaking Detected: High fricative and formant transitions detected. Please record a cattle call.",
+      "speech_confidence": 88.0,
+      "cattle_confidence": 0.0,
+      "audio_metrics": {
+        "duration_sec": 1.8,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.1782,
+        "spectral_centroid_hz": 2239.5,
+        "spectral_rolloff_hz": 4785.4,
+        "zero_crossing_rate": 0.1507,
+        "f0_pitch_hz": 700.2,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "High-Frequency (Open-Mouth) Call",
+        "call_type_description": "Open-mouth vocalization typically associated with high arousal, physical distance, or urgent social communication."
+      },
+      "behavioral_context": "\ud83d\udde3\ufe0f Human Speaking Detected. The AudioSet sound discriminator recognized human voice/speech. MooTrack's acoustic model is exclusively trained for cattle vocalizations (mooing)."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:54:00",
+    "type": "audio",
+    "filename": "human_speech_sample.wav",
+    "predicted_class": "Human Speaking",
+    "confidence": 0.88,
+    "details": {
+      "is_cattle_call": false,
+      "is_human_speech": true,
+      "signal_classification": "Human Speaking",
+      "class": "Human Speaking",
+      "detected_speaker": "Human Speaking",
+      "confidence": 0.88,
+      "probabilities": {
+        "Human Speaking": 0.88,
+        "Cattle Vocalization": 0.12
+      },
+      "error": "Human Speaking Detected: High fricative and formant transitions detected. Please record a cattle call.",
+      "speech_confidence": 88.0,
+      "cattle_confidence": 0.0,
+      "audio_metrics": {
+        "duration_sec": 1.8,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.1782,
+        "spectral_centroid_hz": 2239.5,
+        "spectral_rolloff_hz": 4785.4,
+        "zero_crossing_rate": 0.1507,
+        "f0_pitch_hz": 700.2,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "High-Frequency (Open-Mouth) Call",
+        "call_type_description": "Open-mouth vocalization typically associated with high arousal, physical distance, or urgent social communication."
+      },
+      "behavioral_context": "\ud83d\udde3\ufe0f Human Speaking Detected. The AudioSet sound discriminator recognized human voice/speech. MooTrack's acoustic model is exclusively trained for cattle vocalizations (mooing)."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:58",
+    "type": "audio",
+    "filename": "human_speech_sample.wav",
+    "predicted_class": "Human Speaking",
+    "confidence": 0.88,
+    "details": {
+      "is_cattle_call": false,
+      "is_human_speech": true,
+      "signal_classification": "Human Speaking",
+      "class": "Human Speaking",
+      "detected_speaker": "Human Speaking",
+      "confidence": 0.88,
+      "probabilities": {
+        "Human Speaking": 0.88,
+        "Cattle Vocalization": 0.12
+      },
+      "error": "Human Speaking Detected: High fricative and formant transitions detected. Please record a cattle call.",
+      "speech_confidence": 88.0,
+      "cattle_confidence": 0.0,
+      "audio_metrics": {
+        "duration_sec": 1.8,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.1782,
+        "spectral_centroid_hz": 2239.5,
+        "spectral_rolloff_hz": 4785.4,
+        "zero_crossing_rate": 0.1507,
+        "f0_pitch_hz": 700.2,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "High-Frequency (Open-Mouth) Call",
+        "call_type_description": "Open-mouth vocalization typically associated with high arousal, physical distance, or urgent social communication."
+      },
+      "behavioral_context": "\ud83d\udde3\ufe0f Human Speaking Detected. The AudioSet sound discriminator recognized human voice/speech. MooTrack's acoustic model is exclusively trained for cattle vocalizations (mooing)."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:56",
+    "type": "audio",
+    "filename": "human_speech_sample.wav",
+    "predicted_class": "Human Speaking",
+    "confidence": 0.88,
+    "details": {
+      "is_cattle_call": false,
+      "is_human_speech": true,
+      "signal_classification": "Human Speaking",
+      "class": "Human Speaking",
+      "detected_speaker": "Human Speaking",
+      "confidence": 0.88,
+      "probabilities": {
+        "Human Speaking": 0.88,
+        "Cattle Vocalization": 0.12
+      },
+      "error": "Human Speaking Detected: High fricative and formant transitions detected. Please record a cattle call.",
+      "speech_confidence": 88.0,
+      "cattle_confidence": 0.0,
+      "audio_metrics": {
+        "duration_sec": 1.8,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.1782,
+        "spectral_centroid_hz": 2239.5,
+        "spectral_rolloff_hz": 4785.4,
+        "zero_crossing_rate": 0.1507,
+        "f0_pitch_hz": 700.2,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "High-Frequency (Open-Mouth) Call",
+        "call_type_description": "Open-mouth vocalization typically associated with high arousal, physical distance, or urgent social communication."
+      },
+      "behavioral_context": "\ud83d\udde3\ufe0f Human Speaking Detected. The AudioSet sound discriminator recognized human voice/speech. MooTrack's acoustic model is exclusively trained for cattle vocalizations (mooing)."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:55",
+    "type": "audio",
+    "filename": "cattle_positive_sample.wav",
+    "predicted_class": "Positive",
+    "confidence": 0.9703,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Positive",
+      "confidence": 0.9703,
+      "probabilities": {
+        "Negative": 0.0297,
+        "Positive": 0.9703
+      },
+      "speech_confidence": 1.9,
+      "cattle_confidence": 6.0,
+      "audio_metrics": {
+        "duration_sec": 1.2,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2862,
+        "spectral_centroid_hz": 240.8,
+        "spectral_rolloff_hz": 414.7,
+        "zero_crossing_rate": 0.0168,
+        "f0_pitch_hz": 341.7,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "Low-Frequency (Closed-Mouth) Call",
+        "call_type_description": "Closed-mouth low murmur or contact call typically produced during calm proximity, maternal nursing, or rest."
+      },
+      "behavioral_context": "Acoustic features indicate Positive Emotional Valence. In cattle ethology, this acoustic profile is observed during social reunions, pen-mate contact, or maternal-offspring affiliative interaction."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:53",
+    "type": "audio",
+    "filename": "cattle_positive_sample.wav",
+    "predicted_class": "Positive",
+    "confidence": 0.9703,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Positive",
+      "confidence": 0.9703,
+      "probabilities": {
+        "Negative": 0.0297,
+        "Positive": 0.9703
+      },
+      "speech_confidence": 1.9,
+      "cattle_confidence": 6.0,
+      "audio_metrics": {
+        "duration_sec": 1.2,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2862,
+        "spectral_centroid_hz": 240.8,
+        "spectral_rolloff_hz": 414.7,
+        "zero_crossing_rate": 0.0168,
+        "f0_pitch_hz": 341.7,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "Low-Frequency (Closed-Mouth) Call",
+        "call_type_description": "Closed-mouth low murmur or contact call typically produced during calm proximity, maternal nursing, or rest."
+      },
+      "behavioral_context": "Acoustic features indicate Positive Emotional Valence. In cattle ethology, this acoustic profile is observed during social reunions, pen-mate contact, or maternal-offspring affiliative interaction."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:52",
+    "type": "audio",
+    "filename": "cattle_positive_sample.wav",
+    "predicted_class": "Positive",
+    "confidence": 0.9703,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Positive",
+      "confidence": 0.9703,
+      "probabilities": {
+        "Negative": 0.0297,
+        "Positive": 0.9703
+      },
+      "speech_confidence": 1.9,
+      "cattle_confidence": 6.0,
+      "audio_metrics": {
+        "duration_sec": 1.2,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2862,
+        "spectral_centroid_hz": 240.8,
+        "spectral_rolloff_hz": 414.7,
+        "zero_crossing_rate": 0.0168,
+        "f0_pitch_hz": 341.7,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "Low-Frequency (Closed-Mouth) Call",
+        "call_type_description": "Closed-mouth low murmur or contact call typically produced during calm proximity, maternal nursing, or rest."
+      },
+      "behavioral_context": "Acoustic features indicate Positive Emotional Valence. In cattle ethology, this acoustic profile is observed during social reunions, pen-mate contact, or maternal-offspring affiliative interaction."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:51",
+    "type": "audio",
+    "filename": "cattle_positive_sample.wav",
+    "predicted_class": "Positive",
+    "confidence": 0.9703,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Positive",
+      "confidence": 0.9703,
+      "probabilities": {
+        "Negative": 0.0297,
+        "Positive": 0.9703
+      },
+      "speech_confidence": 1.9,
+      "cattle_confidence": 6.0,
+      "audio_metrics": {
+        "duration_sec": 1.2,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2862,
+        "spectral_centroid_hz": 240.8,
+        "spectral_rolloff_hz": 414.7,
+        "zero_crossing_rate": 0.0168,
+        "f0_pitch_hz": 341.7,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "Low-Frequency (Closed-Mouth) Call",
+        "call_type_description": "Closed-mouth low murmur or contact call typically produced during calm proximity, maternal nursing, or rest."
+      },
+      "behavioral_context": "Acoustic features indicate Positive Emotional Valence. In cattle ethology, this acoustic profile is observed during social reunions, pen-mate contact, or maternal-offspring affiliative interaction."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:49",
+    "type": "audio",
+    "filename": "cattle_negative_sample.wav",
+    "predicted_class": "Negative",
+    "confidence": 0.9975,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Negative",
+      "confidence": 0.9975,
+      "probabilities": {
+        "Negative": 0.9975,
+        "Positive": 0.0025
+      },
+      "speech_confidence": 0.6,
+      "cattle_confidence": 0.1,
+      "audio_metrics": {
+        "duration_sec": 2.0,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2844,
+        "spectral_centroid_hz": 1950.6,
+        "spectral_rolloff_hz": 4259.5,
+        "zero_crossing_rate": 0.0576,
+        "f0_pitch_hz": 421.9,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "High-Frequency (Open-Mouth) Call",
+        "call_type_description": "Open-mouth vocalization typically associated with high arousal, physical distance, or urgent social communication."
+      },
+      "behavioral_context": "Acoustic features indicate Negative Emotional Valence. In cattle ethology, this acoustic profile is observed during social separation, physical isolation, milking delays, or maternal separation distress."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:42",
+    "type": "audio",
+    "filename": "cattle_negative_sample.wav",
+    "predicted_class": "Negative",
+    "confidence": 0.9975,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Negative",
+      "confidence": 0.9975,
+      "probabilities": {
+        "Negative": 0.9975,
+        "Positive": 0.0025
+      },
+      "speech_confidence": 0.6,
+      "cattle_confidence": 0.1,
+      "audio_metrics": {
+        "duration_sec": 2.0,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2844,
+        "spectral_centroid_hz": 1950.6,
+        "spectral_rolloff_hz": 4259.5,
+        "zero_crossing_rate": 0.0576,
+        "f0_pitch_hz": 421.9,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "High-Frequency (Open-Mouth) Call",
+        "call_type_description": "Open-mouth vocalization typically associated with high arousal, physical distance, or urgent social communication."
+      },
+      "behavioral_context": "Acoustic features indicate Negative Emotional Valence. In cattle ethology, this acoustic profile is observed during social separation, physical isolation, milking delays, or maternal separation distress."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:39",
+    "type": "audio",
+    "filename": "cattle_negative_sample.wav",
+    "predicted_class": "Negative",
+    "confidence": 0.9975,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Negative",
+      "confidence": 0.9975,
+      "probabilities": {
+        "Negative": 0.9975,
+        "Positive": 0.0025
+      },
+      "speech_confidence": 0.6,
+      "cattle_confidence": 0.1,
+      "audio_metrics": {
+        "duration_sec": 2.0,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2844,
+        "spectral_centroid_hz": 1950.6,
+        "spectral_rolloff_hz": 4259.5,
+        "zero_crossing_rate": 0.0576,
+        "f0_pitch_hz": 421.9,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "High-Frequency (Open-Mouth) Call",
+        "call_type_description": "Open-mouth vocalization typically associated with high arousal, physical distance, or urgent social communication."
+      },
+      "behavioral_context": "Acoustic features indicate Negative Emotional Valence. In cattle ethology, this acoustic profile is observed during social separation, physical isolation, milking delays, or maternal separation distress."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:36",
+    "type": "audio",
+    "filename": "cattle_positive_sample.wav",
+    "predicted_class": "Positive",
+    "confidence": 0.9703,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Positive",
+      "confidence": 0.9703,
+      "probabilities": {
+        "Negative": 0.0297,
+        "Positive": 0.9703
+      },
+      "speech_confidence": 1.9,
+      "cattle_confidence": 6.0,
+      "audio_metrics": {
+        "duration_sec": 1.2,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2862,
+        "spectral_centroid_hz": 240.8,
+        "spectral_rolloff_hz": 414.7,
+        "zero_crossing_rate": 0.0168,
+        "f0_pitch_hz": 341.7,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "Low-Frequency (Closed-Mouth) Call",
+        "call_type_description": "Closed-mouth low murmur or contact call typically produced during calm proximity, maternal nursing, or rest."
+      },
+      "behavioral_context": "Acoustic features indicate Positive Emotional Valence. In cattle ethology, this acoustic profile is observed during social reunions, pen-mate contact, or maternal-offspring affiliative interaction."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:32",
+    "type": "audio",
+    "filename": "cattle_positive_sample.wav",
+    "predicted_class": "Positive",
+    "confidence": 0.9703,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Positive",
+      "confidence": 0.9703,
+      "probabilities": {
+        "Negative": 0.0297,
+        "Positive": 0.9703
+      },
+      "speech_confidence": 1.9,
+      "cattle_confidence": 6.0,
+      "audio_metrics": {
+        "duration_sec": 1.2,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2862,
+        "spectral_centroid_hz": 240.8,
+        "spectral_rolloff_hz": 414.7,
+        "zero_crossing_rate": 0.0168,
+        "f0_pitch_hz": 341.7,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "Low-Frequency (Closed-Mouth) Call",
+        "call_type_description": "Closed-mouth low murmur or contact call typically produced during calm proximity, maternal nursing, or rest."
+      },
+      "behavioral_context": "Acoustic features indicate Positive Emotional Valence. In cattle ethology, this acoustic profile is observed during social reunions, pen-mate contact, or maternal-offspring affiliative interaction."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:23",
+    "type": "audio",
+    "filename": "cattle_positive_sample.wav",
+    "predicted_class": "Positive",
+    "confidence": 0.9703,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Positive",
+      "confidence": 0.9703,
+      "probabilities": {
+        "Negative": 0.0297,
+        "Positive": 0.9703
+      },
+      "speech_confidence": 1.9,
+      "cattle_confidence": 6.0,
+      "audio_metrics": {
+        "duration_sec": 1.2,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2862,
+        "spectral_centroid_hz": 240.8,
+        "spectral_rolloff_hz": 414.7,
+        "zero_crossing_rate": 0.0168,
+        "f0_pitch_hz": 341.7,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "Low-Frequency (Closed-Mouth) Call",
+        "call_type_description": "Closed-mouth low murmur or contact call typically produced during calm proximity, maternal nursing, or rest."
+      },
+      "behavioral_context": "Acoustic features indicate Positive Emotional Valence. In cattle ethology, this acoustic profile is observed during social reunions, pen-mate contact, or maternal-offspring affiliative interaction."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:22",
+    "type": "audio",
+    "filename": "cattle_positive_sample.wav",
+    "predicted_class": "Positive",
+    "confidence": 0.9703,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Positive",
+      "confidence": 0.9703,
+      "probabilities": {
+        "Negative": 0.0297,
+        "Positive": 0.9703
+      },
+      "speech_confidence": 1.9,
+      "cattle_confidence": 6.0,
+      "audio_metrics": {
+        "duration_sec": 1.2,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2862,
+        "spectral_centroid_hz": 240.8,
+        "spectral_rolloff_hz": 414.7,
+        "zero_crossing_rate": 0.0168,
+        "f0_pitch_hz": 341.7,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "Low-Frequency (Closed-Mouth) Call",
+        "call_type_description": "Closed-mouth low murmur or contact call typically produced during calm proximity, maternal nursing, or rest."
+      },
+      "behavioral_context": "Acoustic features indicate Positive Emotional Valence. In cattle ethology, this acoustic profile is observed during social reunions, pen-mate contact, or maternal-offspring affiliative interaction."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:21",
+    "type": "audio",
+    "filename": "cattle_positive_sample.wav",
+    "predicted_class": "Positive",
+    "confidence": 0.9703,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Positive",
+      "confidence": 0.9703,
+      "probabilities": {
+        "Negative": 0.0297,
+        "Positive": 0.9703
+      },
+      "speech_confidence": 1.9,
+      "cattle_confidence": 6.0,
+      "audio_metrics": {
+        "duration_sec": 1.2,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2862,
+        "spectral_centroid_hz": 240.8,
+        "spectral_rolloff_hz": 414.7,
+        "zero_crossing_rate": 0.0168,
+        "f0_pitch_hz": 341.7,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "Low-Frequency (Closed-Mouth) Call",
+        "call_type_description": "Closed-mouth low murmur or contact call typically produced during calm proximity, maternal nursing, or rest."
+      },
+      "behavioral_context": "Acoustic features indicate Positive Emotional Valence. In cattle ethology, this acoustic profile is observed during social reunions, pen-mate contact, or maternal-offspring affiliative interaction."
+    }
+  },
+  {
+    "timestamp": "2026-11-16 14:53:20",
+    "type": "audio",
+    "filename": "cattle_positive_sample.wav",
+    "predicted_class": "Positive",
+    "confidence": 0.9703,
+    "details": {
+      "is_cattle_call": true,
+      "is_human_speech": false,
+      "signal_classification": "Cattle Vocalization",
+      "class": "Positive",
+      "confidence": 0.9703,
+      "probabilities": {
+        "Negative": 0.0297,
+        "Positive": 0.9703
+      },
+      "speech_confidence": 1.9,
+      "cattle_confidence": 6.0,
+      "audio_metrics": {
+        "duration_sec": 1.2,
+        "sampling_rate_hz": 16000,
+        "rms_energy": 0.2862,
+        "spectral_centroid_hz": 240.8,
+        "spectral_rolloff_hz": 414.7,
+        "zero_crossing_rate": 0.0168,
+        "f0_pitch_hz": 341.7,
+        "arousal_level": "High Arousal",
+        "call_type_estimate": "Low-Frequency (Closed-Mouth) Call",
+        "call_type_description": "Closed-mouth low murmur or contact call typically produced during calm proximity, maternal nursing, or rest."
+      },
+      "behavioral_context": "Acoustic features indicate Positive Emotional Valence. In cattle ethology, this acoustic profile is observed during social reunions, pen-mate contact, or maternal-offspring affiliative interaction."
+    }
+  },
+  {
     "timestamp": "2026-10-02 19:48:14",
     "type": "audio",
     "filename": "Calm Contact Murmur (Positive)",
